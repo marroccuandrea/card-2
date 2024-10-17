@@ -2,10 +2,9 @@ import React from 'react'
 
 // Destrutturazione migliore oggetto
 // const Product = ({prezzoFinale, nome, img, prezzo, utente})
-const Product = (props) => {
+const Product = ({prezzoFinale, nome, img, prezzo, utente}) => {
 
- // Destrutturazione oggetto (non serve mettere props. davanti al dato che mi serve stampare)
- const {prezzoFinale, nome, img, prezzo, utente} = props;
+
   return (
     <article>
         <div className="card">
